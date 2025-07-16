@@ -3,19 +3,19 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
-    app: bubble-animation
-  name: bubble-animation
-  namespace: bubble-animation
+    app: holger-bubble-animation
+  name: holger-bubble-animation
+  namespace: holger-bubble-animation
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: bubble-animation
+      app: holger-bubble-animation
   strategy: {}
   template:
     metadata:
       labels:
-        app: bubble-animation
+        app: holger-bubble-animation
     spec:
       containers:
       - image: quay.io/rhdevelopers/bgd:1.0.0
