@@ -7,7 +7,7 @@ spec:
   destination:
     namespace: holger-bubble-animation
     server: https://kubernetes.default.svc 
-  project: bubble-animation-project
+  project: default
   source: 
     path: bubble-animation/application-mainfest
     repoURL: https://github.com/ngc-5139/argocd-openshift
